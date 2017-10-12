@@ -1,0 +1,8 @@
+version: '2'
+services:
+  ccenterapi:
+    build:
+      context: ../../
+      dockerfile: docker/stage/Dockerfile
+    ports:
+      - "8000:8000"

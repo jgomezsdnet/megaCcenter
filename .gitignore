@@ -1,0 +1,10 @@
+venv
+*.pyc
+*.sqlite3
+ansible-test
+env
+venv2
+.idea
+.DS_Store
+
+
